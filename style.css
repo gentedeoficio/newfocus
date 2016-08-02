@@ -1,0 +1,54 @@
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 0px;
+  width: auto;
+  display: inline-flex
+}
+
+.navbar-fixed-top, .navbar-collapse{
+    background-color: #EEC801;
+    border: 0;
+    font-size: 110%;
+    
+}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    padding-top: 16px;
+}
+
+.nav > li > a{
+    color: black;
+}
+
+.nav > li > a:focus, .nav > li > a:hover{
+    background-color: black;
+    color: #EEC801;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: black;
+    color: #EEC801;
+    background-image: none;
+}
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover{
+
+    background-color: black;
+    color: #EEC801;
+}
+
+.navbar-nav > li > .dropdown-menu{
+background-color: #EEC801;    
+}
+
+.dropdown-menu > .active > a, 
+.dropdown-menu > .active > a:focus, 
+.dropdown-menu > .active > a:hover {
+    background-color: black;
+    color: #EEC801;
+    background-image: none;    
+}
+
